@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learning TestNG" duration-ms="82035" started-at="2021-01-12T16:10:06Z" finished-at="2021-01-12T16:11:28Z">
+    <groups>
+    </groups>
+    <test name="Find New Car Test" duration-ms="15621" started-at="2021-01-12T16:10:06Z" finished-at="2021-01-12T16:10:21Z">
+      <class name="testCases.FindNewCarTest">
+        <test-method status="PASS" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="findCarTest" duration-ms="14611" started-at="2021-01-12T16:10:06Z" data-provider="dp" finished-at="2021-01-12T16:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[maruti]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Maruti Suzuki Cars]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="tearDown" is-config="true" duration-ms="824" started-at="2021-01-12T16:10:21Z" finished-at="2021-01-12T16:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="findCarTest" duration-ms="7" started-at="2021-01-12T16:10:21Z" data-provider="dp" finished-at="2021-01-12T16:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hyundai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hyundai Cars]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+at testCases.FindNewCarTest.findCarTest(FindNewCarTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-01-12T16:10:21Z" finished-at="2021-01-12T16:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="findCarTest" duration-ms="19" started-at="2021-01-12T16:10:21Z" data-provider="dp" finished-at="2021-01-12T16:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ford]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ford Cars]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+at testCases.FindNewCarTest.findCarTest(FindNewCarTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-01-12T16:10:21Z" finished-at="2021-01-12T16:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="findCarTest" duration-ms="6" started-at="2021-01-12T16:10:21Z" data-provider="dp" finished-at="2021-01-12T16:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kia Cars]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+at testCases.FindNewCarTest.findCarTest(FindNewCarTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.FindNewCarTest@210ab13f]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-01-12T16:10:21Z" finished-at="2021-01-12T16:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.FindNewCarTest -->
+    </test> <!-- Find New Car Test -->
+    <test name="Car Name And Price Test" duration-ms="66064" started-at="2021-01-12T16:10:22Z" finished-at="2021-01-12T16:11:28Z">
+      <class name="testCases.CarNameAndPriceTest">
+        <test-method status="PASS" signature="carNameAndPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="carNameAndPriceTest" duration-ms="16630" started-at="2021-01-12T16:10:22Z" data-provider="dp" finished-at="2021-01-12T16:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[maruti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPriceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="tearDown" is-config="true" duration-ms="852" started-at="2021-01-12T16:10:38Z" finished-at="2021-01-12T16:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="carNameAndPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="carNameAndPriceTest" duration-ms="21463" started-at="2021-01-12T16:10:39Z" data-provider="dp" finished-at="2021-01-12T16:11:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hyundai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPriceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="tearDown" is-config="true" duration-ms="1180" started-at="2021-01-12T16:11:01Z" finished-at="2021-01-12T16:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="carNameAndPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="carNameAndPriceTest" duration-ms="11773" started-at="2021-01-12T16:11:02Z" data-provider="dp" finished-at="2021-01-12T16:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ford]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPriceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="tearDown" is-config="true" duration-ms="857" started-at="2021-01-12T16:11:14Z" finished-at="2021-01-12T16:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="carNameAndPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="carNameAndPriceTest" duration-ms="12250" started-at="2021-01-12T16:11:15Z" data-provider="dp" finished-at="2021-01-12T16:11:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPriceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.CarNameAndPriceTest@37313c65]" name="tearDown" is-config="true" duration-ms="1003" started-at="2021-01-12T16:11:27Z" finished-at="2021-01-12T16:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CarNameAndPriceTest -->
+    </test> <!-- Car Name And Price Test -->
+  </suite> <!-- Learning TestNG -->
+</testng-results>

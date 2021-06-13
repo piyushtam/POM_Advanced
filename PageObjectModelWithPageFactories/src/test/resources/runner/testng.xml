@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNG">
+
+ <listeners>
+    
+    <listener class-name="extentListeners.ExtentListeners" />
+   
+  </listeners>
+
+
+  <test  name="Find New Car Test">
+    <classes>
+      
+      <class name="testCases.FindNewCarTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Car Name And Price Test">
+    <classes>
+      
+      <class name="testCases.CarNameAndPriceTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   
+    
+</suite> <!-- Suite -->
